@@ -1,0 +1,423 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  /* border: 5px solid black; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
+  /* color: #3a3a3a; */
+}
+
+/* font color #3a3a3a
+accent color red 
+accent color 2 #88CCF1 */
+
+/* NAV BAR */
+
+#full-width-nav-bar {
+  /* border: 1px solid black; */
+  background-color: white;
+  position: sticky;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  top: 0px;
+  z-index: 99;
+}
+
+.nav-bar {
+  /* border: 5px solid pink; */
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  width: 95%;
+  height: 5rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-button-container {
+  /* border: 5px solid blue; */
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-right: 3rem;
+}
+
+.current-page-nav {
+  background-color: #88ccf1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-button {
+  /* padding: 1rem; */
+  /* background-color: aqua; */
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  align-self: center;
+  color: #3a3a3a;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background-color: #88ccf1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#icon-button-container {
+  /* border: 5px solid red; */
+  color: #3a3a3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.font-awesome-icons {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+.font-awesome-icons:hover {
+  color: #88ccf1;
+  cursor: pointer;
+}
+
+#logo {
+  justify-self: start;
+}
+
+#home-button {
+}
+
+#about-us-button {
+}
+
+#apparel-button {
+}
+
+#FAQ-button {
+}
+
+#contact-button {
+}
+
+/* HOME PAGE SPLASH */
+
+.splash-page-image-box {
+  height: 47rem;
+  background-image: linear-gradient(rgba(49, 34, 34, 0.7), rgba(0, 0, 0, 0.05)), url("Images/YC-VancariiBlueHoodie.jpeg");
+  backdrop-filter: grayscale();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 89%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.landing-image {
+  max-width: 100%;
+  opacity: 1;
+}
+
+#test-text {
+  width: 70%;
+  margin: auto;
+  padding: 100px 20px;
+}
+
+.splash-page-words {
+  font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  color: white;
+  font-size: 5rem;
+  text-shadow: 0 0 4px rgb(0 0 0 / 40%);
+}
+
+.splash-page-description {
+  font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 0 0 4px rgb(0 0 0 / 40%);
+  margin: 1rem;
+}
+
+.classic-button {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.classic-button:hover {
+  background-color: #88ccf1;
+  color: black;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+/* .backdropfiltertest {
+  border: 5px solid blue;
+  flex-grow: 1;
+  width: auto;
+  backdrop-filter: grayscale(30%);
+} */
+
+/* SPLASH PAGE PRODUCT VIEW */
+
+.splash-product-display-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+
+  /* border: 1px solid black; */
+}
+
+.splash-product-image {
+  padding: 5rem;
+  padding-right: 1rem;
+  max-width: 25%;
+}
+
+.splash-product-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+.splash-product-heading {
+  color: #3a3a3a;
+  font-size: 2rem;
+}
+
+.splash-product-info {
+  color: #3a3a3a;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.splash-product-view-product-button {
+  color: #3a3a3a;
+  border: 0.1rem solid #3a3a3a;
+  padding: 0.5rem 3rem;
+  margin-top: 1rem;
+}
+
+.splash-product-view-product-button:hover {
+  background-color: #88ccf1;
+  border: 0.1rem solid #88ccf1;
+  cursor: pointer;
+  color: white;
+}
+
+/* REVIEWS */
+
+.review-container {
+  margin: auto;
+  width: 65%;
+  height: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  color: #3a3a3a;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.review-box {
+  height: auto;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.review-quotation-mark {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.actual-review {
+  margin: 0.5rem;
+  font-size: large;
+  line-height: 1.5;
+}
+
+.reviewer {
+  margin: 0.5rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+/* FOOTER CSS */
+
+#footer {
+  background-color: #f6f6f6;
+  height: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+#footer-container {
+  width: 70%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+#footer-quick-links {
+  /* background-color: red; */
+  max-width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  padding-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+#quick-link {
+  font-weight: bold;
+  color: #3a3a3a;
+  align-self: flex-start;
+  /* background-color: black; */
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+#footer-link-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.quick-link-links {
+  color: #3a3a3a;
+  padding: 1rem;
+}
+
+.quick-link-links:hover {
+  color: #88ccf1;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+#footer-join-us {
+  /* background-color: pink; */
+  min-width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #3a3a3a;
+  padding-top: 1.5rem;
+}
+
+#join-us-div {
+  color: #3a3a3a;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#footer-join-us input {
+  /* margin-top: 1rem; */
+  width: 100%;
+  font-size: large;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  border-right: 0px;
+  border-color: #3a3a3a;
+  border-width: 1px;
+}
+
+#join-us-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 1.5rem;
+}
+
+.subscribe-button {
+  font-size: small;
+  font-weight: bolder;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* margin-right: 10px; */
+  background-color: #3a3a3a;
+  color: #f6f6f6;
+  border-radius: 0 0.5rem 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-button:hover {
+  background-color: #636363;
+  cursor: pointer;
+}
+
+#copyright-notice {
+  background-color: #f6f6f6;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  font-size: smaller;
+  color: #3a3a3a;
+}
+
+/* ABOUT US SECTION */
+
+.about-us-heading-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  color: #3a3a3a;
+}
+
+.about-us-actual-title {
+  padding: 3rem;
+}
+.about-us-description p {
+  margin-bottom: 2rem;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.about-us-doggo-pic {
+  width: 100%;
+}
